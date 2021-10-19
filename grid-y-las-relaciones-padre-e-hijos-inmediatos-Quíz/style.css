@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.grandfather {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    width: 100%;
+    height: 8vh;
+    background-color: purple;
+}
+
+.father {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+}
+
+.child {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: papayawhip;
+}
